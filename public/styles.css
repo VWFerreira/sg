@@ -1,0 +1,91 @@
+body {
+  font-family: Arial, sans-serif;
+  background-image: url('/pp.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+
+/* Define a largura e a aparência do contêiner do formulário de login */
+.login-container {
+  width: 300px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  /* Comentário: Define a largura do contêiner para 300px */
+  /* Comentário: Define a cor de fundo do contêiner para #fff */
+  /* Comentário: Define o raio das bordas do contêiner para 10px */
+  /* Comentário: Adiciona um efeito de sombra ao contêiner */
+  /* Comentário: Define o espaçamento interno do contêiner para 20px */
+}
+
+/* Define o estilo do título do formulário de login */
+.login-container h2 {
+  margin-bottom: 20px;
+  color: #007bff;
+  font-size: 20px;
+  /* Comentário: Define o espaçamento inferior do título para 20px */
+  /* Comentário: Define a cor do título para #007bff */
+  /* Comentário: Define o tamanho da fonte do título para 20px */
+}
+
+/* Define o estilo dos campos de entrada do formulário de login */
+.login-container form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* Comentário: Define o layout dos campos de entrada como flexbox */
+  /* Comentário: Define a direção do layout dos campos de entrada como coluna */
+  /* Comentário: Define o alinhamento dos campos de entrada como central */
+}
+
+/* Define o estilo dos campos de entrada de texto do formulário de login */
+.login-container input,
+.login-container select {
+  margin: 5px 0;
+  padding: 10px;
+  border-radius: 5px;
+  outline: none;
+  width: 100%;
+  /* Comentário: Define o espaçamento entre os campos de entrada e as bordas */
+  /* Comentário: Define o preenchimento dos campos de entrada */
+  /* Comentário: Define o raio das bordas dos campos de entrada */
+  /* Comentário: Remove a borda externa dos campos de entrada */
+  /* Comentário: Define a largura dos campos de entrada como 100% */
+}
+
+/* Define o estilo dos campos de entrada de texto do formulário de login quando estiverem com o foco */
+.login-container input:focus,
+.login-container select:focus {
+  border-color: #007bff;
+  /* Comentário: Define a cor da borda dos campos de entrada com o foco */
+}
+
+/* Define o estilo do botão do formulário de login */
+.login-container button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+  width: 100%;
+  margin-top: 20px;
+  /* Comentário: Define a cor de fundo do botão */
+  /* Comentário: Define a cor do texto do botão */
+  /* Comentário: Define o preenchimento do botão */
+  /* Comentário: Define o raio das bordas do botão */
+  /* Comentário: Define o cursor do botão como um ponteiro */
+  /* Comentário: Define uma transição para a cor de fundo e a cor do texto do botão */
+  /* Comentário: Define a largura do botão como 100% */
+  /* Comentário: Define o espaçamento superior do botão */
+}
+
+/* Define o estilo do botão do formulário de login quando estiver com o foco */

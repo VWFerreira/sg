@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/styles.css">
+  <!-- Inclua o Bootstrap CSS -->
+  <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.min.css">
+  <title>Login</title>
+  <style>
+    .login-container {
+      text-align: center;
+    }
+    .login-container img {
+      max-width: 100%;
+      height: auto;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="login-container">
+      <img src="/imghh.png" alt="Login Image">
+      <h2>Login</h2>
+      <form action="/login" method="post">
+        <div class="mb-3">
+          <input type="text" name="usuario" class="form-control" placeholder="Usuário" required>
+        </div>
+        <div class="mb-3">
+          <input type="password" name="senha" class="form-control" placeholder="Senha" required>
+        </div>
+        <div class="mb-3">
+          <select name="polo" class="form-select">
+            <option value=""></option>
+            <option value="RS">RS</option>
+            <option value="RN">RN</option>
+            <option value="CG">CG</option>
+            <option value="GO">GO</option>
+            <option value="DF">DF</option>
+            <option value="PB">PB</option>
+          </select>
+        </div>
+        <button type="submit" class="btn btn-primary">Entrar</button>
+      </form>
+    </div>
+  </div>
+
+  <!-- Inclua o Bootstrap JavaScript (popper.js incluído) -->
+  <script src="/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+
+
+
